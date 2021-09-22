@@ -8,6 +8,7 @@ module.exports = {
         'carnation': '#fa5959',
         'valhalla': '#242a45',
         'graySuit': '#9194a2',
+        'linkWater': '#dbdff5',
         'blackHaze': '#f7f7f7',
         'white': '#ffffff'
       },
@@ -22,8 +23,9 @@ module.exports = {
         'textCTA': '14px'
       },
       maxWidth: {
-        'heroImgWidthMobile': '313px',
-        'heroImgWidthDesktop': '580px'
+        'imgWidthMobile': '313px',
+        'heroImgWidthDesktop': '580px',
+        'featureImgWidthDesktop': '536px'
       },
       minWidth: {
         'ctaWidth': '154px'
