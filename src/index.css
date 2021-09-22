@@ -11,7 +11,7 @@ body {
   font-family: 'Rubik', sans-serif;
 }
 
-.heroBluePill {
+#heroBluePill {
   background: url('./img/bg-pill.svg');
   background-repeat: no-repeat;
   background-position: -40% 70%;
