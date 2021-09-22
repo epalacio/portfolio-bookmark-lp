@@ -4,7 +4,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;1,500&display=swap');
 
+
 body {
   margin: 0;
+  padding: 0;
   font-family: 'Rubik', sans-serif;
+}
+
+.heroBluePill {
+  background: url('./img/bg-pill.svg');
+  background-repeat: no-repeat;
+  background-position: -40% 70%;
+  background-size: 140%;
+  padding-bottom: 50px;
 }
