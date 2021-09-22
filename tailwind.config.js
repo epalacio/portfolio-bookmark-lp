@@ -20,15 +20,25 @@ module.exports = {
         'contentHeader': '16px',
         'textDesktop': '18px',
         'textMobile': '15px',
-        'textCTA': '14px'
+        'textCTA': '14px',
+        'cardHeader': '20px'
       },
       maxWidth: {
         'imgWidthMobile': '313px',
         'heroImgWidthDesktop': '580px',
-        'featureImgWidthDesktop': '536px'
+        'featureImgWidthDesktop': '536px',
+        'cardWidth': '280px',
+        'cardLogoWidth': '100px'
       },
       minWidth: {
-        'ctaWidth': '154px'
+        'ctaWidth': '154px',
+        'cardWidth': '280px'
+      },
+      minHeight: {
+        'cardHeight': '371px'
+      },
+      maxHeight: {
+        'cardHeight': '371px'
       },
       zIndex: {
         '-10': '-10',
