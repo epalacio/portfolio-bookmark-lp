@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter as Router, Link} from 'react-router-dom';
 
 import illustrationHero from '../img/illustration-hero.svg'
-import bgPill from '../img/bg-pill.svg'
 
 const Hero = () => {
     return (
