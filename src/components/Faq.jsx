@@ -37,7 +37,7 @@ const Faq = () => {
                         </div>    
                     ))}
                 </div>
-                <Link className='text-textCTA block bg-royalBlue rounded w-max text-white font-medium px-4 py-3 min-w-ctaWidth mx-auto' to='/'>More Info</Link>
+                <Link className='text-textCTA block bg-royalBlue rounded w-max text-white font-medium px-4 py-3 min-w-ctaWidth mx-auto shadow' to='/'>More Info</Link>
             </div>
         </div>
         </Router>
