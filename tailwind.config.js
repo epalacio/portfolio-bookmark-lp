@@ -23,12 +23,16 @@ module.exports = {
         'textCTA': '14px',
         'cardHeader': '20px'
       },
+      screens: {
+        'cards': '1040px'
+      },
       maxWidth: {
         'imgWidthMobile': '313px',
         'heroImgWidthDesktop': '580px',
         'featureImgWidthDesktop': '536px',
         'cardWidth': '280px',
-        'cardLogoWidth': '100px'
+        'cardLogoWidth': '100px',
+        'footerMobileWidth': '375px'
       },
       minWidth: {
         'ctaWidth': '154px',
@@ -42,7 +46,7 @@ module.exports = {
       },
       zIndex: {
         '-10': '-10',
-       }
+      }
     }
   },
   variants: {

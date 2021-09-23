@@ -9,12 +9,14 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="App max-w-screen-xl mx-auto">
+    <div className="App">
       <Navbar/>
-      <Hero/>
-      <Features/>
-      <Download/>
-      <Faq/>
+      <div className='max-w-screen-xl mx-auto'>
+        <Hero/>
+        <Features/>
+        <Download/>
+        <Faq/>
+      </div>
       <Footer/>
     </div>
   );
