@@ -46,6 +46,9 @@ module.exports = {
       },
       zIndex: {
         '-10': '-10',
+      },
+      divideWidth: {
+        '1': '1px'
       }
     }
   },
