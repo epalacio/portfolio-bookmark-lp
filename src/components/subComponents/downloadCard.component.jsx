@@ -9,7 +9,7 @@ const DownloadCard = (props) => {
                 <p className='text-graySuit text-textMobile'>Minimum version {props.minVersionReq}</p>
             </div>
             <img src={cardDots} alt="Dots divider" />
-            <a href='/' className='text-textCTA block bg-royalBlue rounded w-11/12 text-white text-center font-medium px-5 py-3 mx-auto shadow'>Add & Install Extension</a>
+            <a href='/' className='text-textCTA block bg-royalBlue hover:bg-white border-2 border-transparent hover:border-royalBlue rounded w-11/12 text-white hover:text-royalBlue text-center font-medium px-5 py-3 mx-auto shadow'>Add & Install Extension</a>
         </div>
      );
 }

@@ -11,8 +11,8 @@ const Hero = () => {
                 <h1 className='text-headerMobile md:text-headerDesktop text-valhalla font-medium'>A Simple BookMark Manager</h1>
                 <p className='text-textMobile md:text-textDesktop text-graySuit my-12'>A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
                 <div className='flex justify-center md:justify-start'>
-                    <Link className='text-textCTA block bg-royalBlue rounded w-max text-white font-medium px-5 py-3 min-w-ctaWidth mr-3 shadow' to='/'>Get it on Chrome</Link>
-                    <Link className='text-textCTA block bg-blackHaze rounded w-max text-valhalla font-medium px-5 py-3 min-w-ctaWidth shadow' to='/'>Get it on Firefox</Link>
+                    <Link className='text-textCTA block bg-royalBlue hover:bg-white rounded w-max border-2 border-transparent hover:border-royalBlue text-white hover:text-royalBlue font-medium px-5 py-3 min-w-ctaWidth mr-3 shadow' to='/'>Get it on Chrome</Link>
+                    <Link className='text-textCTA block bg-blackHaze hover:bg-white rounded w-max border-2 border-transparent hover:border-valhalla text-valhalla font-medium px-5 py-3 min-w-ctaWidth shadow' to='/'>Get it on Firefox</Link>
                 </div>
             </div>
             <div id='heroBluePill'>

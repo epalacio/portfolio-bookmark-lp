@@ -28,9 +28,9 @@ const Features = () => {
                 <h2 className='text-subHeaderMobile md:text-subHeaderDesktop text-valhalla font-medium'>Features</h2>
                 <p className='text-textMobile md:text-textDesktop text-graySuit my-8 w-9/12 mx-auto'>Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
                 <ul id='features-menu' className='flex flex-col sm:flex-row justify-around border-b-2 border-linkWater divide-y-2 divide-linkWater sm:divide-transparent w-10/12 md:w-full mx-auto'>
-                    <a href="/"><li className='cursor-pointer text-valhalla py-4 border-b-4 border-carnation'>Simple Bookmarking</li></a>
-                    <a href="/"><li className='cursor-pointer text-valhalla py-4 border-b-4 border-transparent'>Speedy Searching</li></a>
-                    <a href="/"><li className='cursor-pointer text-valhalla py-4 border-b-4 border-transparent'>Easy Sharing</li></a>
+                    <a href="/"><li className='cursor-pointer text-valhalla hover:text-carnation py-4 border-b-4 border-carnation'>Simple Bookmarking</li></a>
+                    <a href="/"><li className='cursor-pointer text-valhalla hover:text-carnation py-4 border-b-4 border-transparent'>Speedy Searching</li></a>
+                    <a href="/"><li className='cursor-pointer text-valhalla hover:text-carnation py-4 border-b-4 border-transparent'>Easy Sharing</li></a>
                 </ul>
             </div>
             <FeatureSection
