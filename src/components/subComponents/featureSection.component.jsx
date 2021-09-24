@@ -12,7 +12,7 @@ const FeatureSection = (props) => {
             <div className='featureCardText flex flex-col justify-center align-center text-center md:text-left px-4 md:px-20'>
                 <h3 className='text-valhalla text-subHeaderMobile md:text-subHeaderDesktop'>{props.title}</h3>
                 <p className='text-graySuit text-textMobile md:text-textDesktop my-6'>{props.content}</p>
-                <Link className='text-textCTA block bg-royalBlue rounded w-max text-white text-center font-medium px-5 py-3 mx-auto sm:ml-0 shadow' to='/'>More Info</Link>
+                <Link className='text-textCTA block bg-royalBlue hover:bg-white border-2 border-transparent hover:border-royalBlue rounded w-max text-white hover:text-royalBlue text-center font-medium px-5 py-3 mx-auto sm:ml-0 shadow' to='/'>More Info</Link>
             </div>
         </div>
         </Router>
