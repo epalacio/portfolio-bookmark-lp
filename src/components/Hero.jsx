@@ -4,7 +4,7 @@ import illustrationHero from '../img/illustration-hero.svg'
 
 const Hero = () => {
     return (
-        <div id='hero' className='flex items-center flex-col-reverse lg:flex-row text-center lg:text-left p-4'>
+        <div id='hero' className='flex items-center flex-col-reverse lg:flex-row text-center lg:text-left p-4 mt-12 sm:mt-24'>
             <div className='w-full'>
                 <h1 className='text-headerMobile md:text-headerDesktop text-valhalla font-medium'>A Simple BookMark Manager</h1>
                 <p className='text-textMobile md:text-textDesktop text-graySuit my-12'>A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
